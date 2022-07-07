@@ -1,5 +1,9 @@
 .footer {
   background-color: #1b262f;
+  background-repeat: no-repeat;
+  background-size: 780px 780px;
+  background-position: calc(50% + 652px) -114px;
+  background-image: url("../../image/intro-bg.png");
 }
 
 .footer__inner {
@@ -63,6 +67,13 @@
   fill: #883253;
 }
 
+@media only screen and (max-width:990px) {
+
+  .footer {
+    background-position: 200px -114px;
+  }
+}
+
 @media only screen and (max-width:650px) {
 
   .footer__list {
@@ -78,6 +89,12 @@
 }
 
 @media only screen and (max-width:530px) {
+
+
+  .footer {
+    background-position: -186px 118px;
+  }
+
 
   .footer__inner {
     flex-direction: column;
