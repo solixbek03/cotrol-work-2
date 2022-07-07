@@ -1,0 +1,33 @@
+.info__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.info__inner-heading {
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+}
+
+@media only screen and (max-width:750px) {
+
+  .info__inner {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width:380px) {
+
+  .info__inner-heading {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
