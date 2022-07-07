@@ -400,7 +400,7 @@ body {
   background-repeat: no-repeat;
   background-size: 780px 780px;
   background-position: calc(50% + 445px) -214px;
-  background-image: url("../../image/header-or-hero-bg.png");
+  background-image: url("../../image/gray-cricle.png");
 }
 
 .header__inner {
@@ -600,7 +600,7 @@ body {
   background-repeat: no-repeat;
   background-size: 780px 780px;
   background-position: calc(50% + 445px) -400px;
-  background-image: url("../../image/header-or-hero-bg.png");
+  background-image: url("../../image/gray-cricle.png");
 }
 
 .hero__inner {
@@ -1200,6 +1200,8 @@ body {
 }
 
 .icons:hover path {
+  width: 30px;
+  height: 30px;
   fill: #da6d97;
 }
 
